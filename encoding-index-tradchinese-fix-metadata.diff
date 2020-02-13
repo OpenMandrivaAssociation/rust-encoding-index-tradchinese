@@ -1,0 +1,11 @@
+--- encoding-index-tradchinese-1.20141219.5/Cargo.toml	2015-04-14T01:31:32+00:00
++++ encoding-index-tradchinese-1.20141219.5/Cargo.toml	2019-06-23T09:40:18.349926+00:00
+@@ -12,7 +12,6 @@
+ name = "encoding_index_tradchinese"
+ path = "lib.rs"
+ 
+-[dependencies.encoding_index_tests]
++[dev-dependencies.encoding_index_tests]
+ # TODO consider using dev-dependencies instead (Cargo issue #860)
+ version = "0.1.4"
+-path = "../tests"
